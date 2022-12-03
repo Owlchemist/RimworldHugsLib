@@ -7,7 +7,7 @@ namespace HugsLib.Utils {
 	/// A compact confirm dialog with Esc and Enter key support.
 	/// </summary>
 	public class Dialog_Confirm : Dialog_MessageBox {
-		private const float TitleHeight = 42f;
+		private new const float TitleHeight = 42f;
 		private const float DialogWidth = 500f;
 		private const float DialogHeight = 300f;
 
