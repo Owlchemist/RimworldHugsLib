@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<Product>HugsLib</Product>
-		<AssemblyVersion>11.0.0</AssemblyVersion>
+		<AssemblyVersion>11.0.1</AssemblyVersion>
 		<Version>1.4</Version>
 		<Copyright>2022</Copyright>
 		<Company>UnlimitedHugs, Owlchemist</Company>

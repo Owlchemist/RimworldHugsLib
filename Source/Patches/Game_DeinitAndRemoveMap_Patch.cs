@@ -6,8 +6,8 @@ namespace HugsLib.Patches {
 	/// Adds a hook for discarding maps.
 	/// </summary>
 	[HarmonyPatch(typeof (Game))]
-	[HarmonyPatch("DeinitAndRemoveMap")]
-	[HarmonyPatch(new[] { typeof(Map) })]
+	[HarmonyPatch(nameof(Game.DeinitAndRemoveMap_NewTemp))]
+	[HarmonyPatch(new[] { typeof(Map), typeof(bool) })]
 	internal static class Game_DeinitAndRemoveMap_Patch {
 		[HarmonyPostfix]
 		private static void MapRemovalHook(Map map) {
